@@ -1,0 +1,15 @@
+{
+  "name": "winfred-nodejs",
+  "version": "1.0.0",
+  "description": "My Simple Node js App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Winfred Don-Aki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
+  }
+}
