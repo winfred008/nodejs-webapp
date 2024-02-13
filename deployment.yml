@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodesy-container
-          image: boboacr.azurecr.io/nodejswebapp:v1
+          image: boboacrjan.azurecr.io/nodejswebapp:v1
           ports:
             - containerPort: 3000
 ---
