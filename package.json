@@ -1,5 +1,5 @@
 {
-  "name": "winfred008-nodejs",
+  "name": "winfred-nodejs",
   "version": "1.0.0",
   "description": "My Simple Node js App",
   "main": "server.js",
