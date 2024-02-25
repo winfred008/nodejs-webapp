@@ -47,7 +47,7 @@ resource "aws_ecs_service" "my_service" {
 }
 
 resource "aws_iam_role" "ecs_task_execution_role" {
-  name = "ecs_task_execution_role-jan"
+  name = "ecs_task_execution_role"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
