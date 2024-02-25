@@ -40,14 +40,14 @@ resource "aws_ecs_service" "my_service" {
   desired_count   = 1
   launch_type     = "FARGATE"
   network_configuration {
-    subnets          = ["subnet-0174cc76d9b2b6fce"]  
+    subnets          = ["subnet-0ce899ad283a95cf0"]  
     security_groups  = ["sg-09c8b66f444afe949"]      
     assign_public_ip = true
   }
 }
 
 resource "aws_iam_role" "ecs_task_execution_role" {
-  name = "ecs_task_execution_role"
+  name = "ecs_task_execution_role-jan"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
